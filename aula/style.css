@@ -1,0 +1,83 @@
+header{
+    background-color: #273746 ;
+    /*centralizar o texto*/
+    text-align: center;
+    width: 100%;
+     /*separacao e espacamento encima e embaixo*/
+    padding: 2rem 0;
+    
+}
+
+header nav ul{
+    /*Para Alinhar os itens*/
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    /*separacao e espacamento entre as palavras*/
+    margin: 0 10rem;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none
+}
+
+header li :hover {
+    border-bottom: 1px solid aliceblue
+}
+.produtos{
+    margin: 2%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none
+}
+
+.produtos_lista{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produtos_lista_item{
+     /*manter sempre o mesmo tamanho*/
+    flex: 0 1 calc(30% - 1rem);
+    max-width: 20rem;
+    margin: 1rem;
+    border : 1px solid #ccc;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px black;
+    border-radius: 3%;
+    cursor: pointer;
+    list-style: none;
+
+  
+}
+
+.produtos_lista_item_conteudo{
+    /*alinhar no centro*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes{
+    font-size: 1rem;
+
+}
+img{
+    width: 100%;
+    border-radius: 3%;
+}
+
+.informacoes s{
+    color: red;
+}
+footer{
+    background-color: #273746 ;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0;
+    font-size: 1rem;
+    color: #ccc;
+}
